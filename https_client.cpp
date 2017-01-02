@@ -7,8 +7,6 @@
 #include <boost/bind.hpp>
 #include <boost/asio/ssl.hpp>
 
-// c++ -I/usr/include/ -lboost_system https_client.cpp -lpthread -lssl -lcrypto -o https_client
-
 bool verify_certificate(
 bool preverified, boost::asio::ssl::verify_context& context) {
 
